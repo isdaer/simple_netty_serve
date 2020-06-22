@@ -1,12 +1,12 @@
-package org.wisdom.server.business;
+package netty.tcp.server.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.apache.log4j.Logger;
-import org.wisdom.utils.ByteUtils;
+import netty.tcp.utils.ByteUtils;
 
-public class BusinessHandler_3_0 extends ChannelInboundHandlerAdapter {
+public class BusinessHandler extends ChannelInboundHandlerAdapter {
     private ObjectMapper objectMapper = ByteUtils.InstanceObjectMapper();
     private Logger logger = Logger.getLogger(this.getClass());
 

@@ -5994,7 +5994,7 @@ io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: re
 Caused by: java.lang.IndexOutOfBoundsException: readerIndex(124) + length(4) exceeds writerIndex(124): PooledUnsafeDirectByteBuf(ridx: 124, widx: 124, cap: 1024)
 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1395)
 	at io.netty.buffer.AbstractByteBuf.readInt(AbstractByteBuf.java:766)
-	at org.wisdom.server.decoder.DecoderHandler_3_0.decode(DecoderHandler_2_0.java:79)
+	at DecoderHandler_3_0.decode(DecoderHandler_2_0.java:79)
 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
 	... 20 more
 2018-12-26 18:05:28,435 - [id: 0xb75be19c, L:/127.0.0.1:64018 - R:/127.0.0.1:8777] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。

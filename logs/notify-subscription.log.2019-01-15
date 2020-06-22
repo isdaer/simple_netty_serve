@@ -871,7 +871,7 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 2019-01-15 11:18:23,091 - -Dio.netty.recycler.ratio: 8
 2019-01-15 11:18:23,099 - -Dio.netty.buffer.bytebuf.checkAccessible: true
 2019-01-15 11:18:23,100 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d7dadc5
-2019-01-15 11:18:23,105 - 不支持的数据协议：class io.netty.buffer.PooledUnsafeDirectByteBuf	期待的数据协议类是：class org.wisdom.protocol.TcpProtocol_2_0
+2019-01-15 11:18:23,105 - 不支持的数据协议：class io.netty.buffer.PooledUnsafeDirectByteBuf	期待的数据协议类是：class TcpProtocol_2_0
 2019-01-15 11:18:23,111 - [id: 0x5971afa6, L:/127.0.0.1:56935 - R:/127.0.0.1:8777] WRITE: 0B
 2019-01-15 11:18:23,111 - [id: 0x5971afa6, L:/127.0.0.1:56935 - R:/127.0.0.1:8777] FLUSH
 2019-01-15 11:19:40,122 - 正在启动tcp服务器……
