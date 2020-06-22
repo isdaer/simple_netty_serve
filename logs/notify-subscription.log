@@ -1978,3 +1978,95 @@
 2020-06-22 17:35:54,042 - [id: 0x0da33fa1, L:/127.0.0.1:8777 - R:/127.0.0.1:63993] ACTIVE
 2020-06-22 17:35:54,043 - [id: 0x0da33fa1, L:/127.0.0.1:8777 ! R:/127.0.0.1:63993] INACTIVE
 2020-06-22 17:35:54,043 - [id: 0x0da33fa1, L:/127.0.0.1:8777 ! R:/127.0.0.1:63993] UNREGISTERED
+2020-06-22 17:44:17,598 - 正在启动tcp服务器……
+2020-06-22 17:44:17,615 - Using Log4J as the default logging framework
+2020-06-22 17:44:17,623 - -Dio.netty.eventLoopThreads: 24
+2020-06-22 17:44:17,654 - java.nio.Buffer.address: available
+2020-06-22 17:44:17,655 - sun.misc.Unsafe.theUnsafe: available
+2020-06-22 17:44:17,655 - sun.misc.Unsafe.copyMemory: available
+2020-06-22 17:44:17,656 - direct buffer constructor: available
+2020-06-22 17:44:17,656 - java.nio.Bits.unaligned: available, true
+2020-06-22 17:44:17,656 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-06-22 17:44:17,657 - java.nio.ByteBuffer.cleaner(): available
+2020-06-22 17:44:17,658 - Java version: 8
+2020-06-22 17:44:17,658 - -Dio.netty.noUnsafe: false
+2020-06-22 17:44:17,658 - sun.misc.Unsafe: available
+2020-06-22 17:44:17,658 - -Dio.netty.noJavassist: false
+2020-06-22 17:44:17,659 - Javassist: unavailable
+2020-06-22 17:44:17,659 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2020-06-22 17:44:17,659 - -Dio.netty.tmpdir: /var/folders/7b/5xvmtjj50kjfpmp1zq9jgxqr0000gp/T (java.io.tmpdir)
+2020-06-22 17:44:17,660 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-06-22 17:44:17,660 - -Dio.netty.noPreferDirect: false
+2020-06-22 17:44:17,660 - io.netty.maxDirectMemory: 3817865216 bytes
+2020-06-22 17:44:17,678 - -Dio.netty.noKeySetOptimization: false
+2020-06-22 17:44:17,678 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-06-22 17:44:17,680 - org.jctools-core.MpscChunkedArrayQueue: available
+2020-06-22 17:44:17,733 - -Dio.netty.processId: 71780 (auto-detected)
+2020-06-22 17:44:17,735 - -Djava.net.preferIPv4Stack: false
+2020-06-22 17:44:17,735 - -Djava.net.preferIPv6Addresses: false
+2020-06-22 17:44:17,736 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2020-06-22 17:44:17,736 - /proc/sys/net/core/somaxconn: 128 (non-existent)
+2020-06-22 17:44:17,738 - -Dio.netty.machineId: 40:b0:76:ff:fe:7c:be:07 (auto-detected)
+2020-06-22 17:44:17,739 - -Dio.netty.initialSeedUniquifier: 0xf327f393b70bbf85
+2020-06-22 17:44:17,752 - -Dio.netty.leakDetection.level: simple
+2020-06-22 17:44:17,752 - -Dio.netty.leakDetection.maxRecords: 4
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.numHeapArenas: 24
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.numDirectArenas: 24
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.pageSize: 8192
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.maxOrder: 11
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.chunkSize: 16777216
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.tinyCacheSize: 512
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.smallCacheSize: 256
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.normalCacheSize: 64
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-06-22 17:44:17,785 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-06-22 17:44:17,796 - -Dio.netty.allocator.type: pooled
+2020-06-22 17:44:17,796 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2020-06-22 17:44:17,796 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-06-22 17:44:17,812 - 启动tcp服务器启动成功，正在监听端口:8777
+2020-06-22 17:44:44,888 - [id: 0x3563d5f1, L:/127.0.0.1:8777 - R:/127.0.0.1:64114] REGISTERED
+2020-06-22 17:44:44,889 - [id: 0x3563d5f1, L:/127.0.0.1:8777 - R:/127.0.0.1:64114] ACTIVE
+2020-06-22 17:44:45,110 - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2020-06-22 17:44:45,110 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-06-22 17:44:45,110 - -Dio.netty.recycler.linkCapacity: 16
+2020-06-22 17:44:45,110 - -Dio.netty.recycler.ratio: 8
+2020-06-22 17:44:45,121 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2020-06-22 17:44:45,124 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@f3a1ab2
+2020-06-22 17:44:45,130 - [id: 0x3563d5f1, L:/127.0.0.1:8777 - R:/127.0.0.1:64114] RECEIVED: 45B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 23 23 02 48 43 4d 31 48 48 30 30 43 30 30 30 33 |##.HCM1HH00C0003|
+|00000010| 34 30 32 39 03 01 00 14 14 06 16 11 2c 2c 87 05 |4029........,,..|
+|00000020| 28 4c 00 00 b9 48 e7 00 2f 8b d4 00 b9          |(L...H../....   |
++--------+-------------------------------------------------+----------------+
+2020-06-22 17:44:45,132 - [id: 0x3563d5f1, L:/127.0.0.1:8777 ! R:/127.0.0.1:64114] INACTIVE
+2020-06-22 17:44:45,133 - [id: 0x3563d5f1, L:/127.0.0.1:8777 ! R:/127.0.0.1:64114] UNREGISTERED
+2020-06-22 17:44:47,217 - [id: 0x072c1766, L:/127.0.0.1:8777 - R:/127.0.0.1:64116] REGISTERED
+2020-06-22 17:44:47,219 - [id: 0x072c1766, L:/127.0.0.1:8777 - R:/127.0.0.1:64116] ACTIVE
+2020-06-22 17:44:47,223 - [id: 0x072c1766, L:/127.0.0.1:8777 - R:/127.0.0.1:64116] RECEIVED: 45B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 23 23 02 30 30 30 30 30 30 30 59 56 30 34 2d 30 |##.0000000YV04-0|
+|00000010| 34 30 30 35 03 01 00 14 14 06 16 11 2c 2f 87 05 |4005........,/..|
+|00000020| 29 00 00 00 b9 48 e9 00 2f 8b de 00 ec          |)....H../....   |
++--------+-------------------------------------------------+----------------+
+2020-06-22 17:44:47,223 - [id: 0x072c1766, L:/127.0.0.1:8777 ! R:/127.0.0.1:64116] INACTIVE
+2020-06-22 17:44:47,223 - [id: 0x072c1766, L:/127.0.0.1:8777 ! R:/127.0.0.1:64116] UNREGISTERED
+2020-06-22 17:44:49,436 - [id: 0xd50e4d3f, L:/127.0.0.1:8777 - R:/127.0.0.1:64117] REGISTERED
+2020-06-22 17:44:49,436 - [id: 0xd50e4d3f, L:/127.0.0.1:8777 - R:/127.0.0.1:64117] ACTIVE
+2020-06-22 17:44:49,442 - [id: 0xd50e4d3f, L:/127.0.0.1:8777 - R:/127.0.0.1:64117] RECEIVED: 45B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 23 23 02 43 41 54 30 33 31 31 44 54 41 4b 57 30 |##.CAT0311DTAKW0|
+|00000010| 30 33 35 36 03 01 00 14 14 06 16 11 2c 31 87 05 |0356........,1..|
+|00000020| 2a 00 00 00 b9 48 85 00 2f 8b b1 00 fd          |*....H../....   |
++--------+-------------------------------------------------+----------------+
+2020-06-22 17:44:49,442 - [id: 0xd50e4d3f, L:/127.0.0.1:8777 ! R:/127.0.0.1:64117] INACTIVE
+2020-06-22 17:44:49,442 - [id: 0xd50e4d3f, L:/127.0.0.1:8777 ! R:/127.0.0.1:64117] UNREGISTERED
+2020-06-22 17:44:50,697 - [id: 0x0dd82141, L:/127.0.0.1:8777 - R:/127.0.0.1:64119] REGISTERED
+2020-06-22 17:44:50,697 - [id: 0x0dd82141, L:/127.0.0.1:8777 - R:/127.0.0.1:64119] ACTIVE
+2020-06-22 17:44:51,105 - [id: 0x0dd82141, L:/127.0.0.1:8777 ! R:/127.0.0.1:64119] INACTIVE
+2020-06-22 17:44:51,105 - [id: 0x0dd82141, L:/127.0.0.1:8777 ! R:/127.0.0.1:64119] UNREGISTERED
