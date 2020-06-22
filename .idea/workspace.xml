@@ -201,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592817581774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592818487013" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/wisdom" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -236,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TcpServer">
+  <component name="RunManager" selected="Application.TcpServer (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="simple_netty_serve" />
@@ -250,6 +250,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.wisdom.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.tcp.server.TcpServer" />
+      <module name="simple_netty_serve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.tcp.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,9 +287,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TcpServer" />
       <item itemvalue="Application.TcpClient" />
+      <item itemvalue="Application.TcpServer (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TcpServer (1)" />
         <item itemvalue="Application.TcpServer" />
         <item itemvalue="Application.TcpClient" />
         <item itemvalue="Application.Main" />
